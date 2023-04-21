@@ -1,0 +1,177 @@
+a {
+  text-decoration: none;
+}
+
+a + a {
+  margin-left: 15px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: block;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  font-size: 20px;
+}
+
+button {
+  position: relative;
+  background-color: darkorchid;
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10px;
+  display: block;
+}
+
+.base-config {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.header {
+  font-size: 35px;
+  background-color: dimgrey;
+  padding: 10px;
+}
+
+.body-first-page {
+  background-color: midnightblue;
+  height: 800px;
+}
+
+.body-first-page-avatar {
+  font-size: 100px;
+  text-align: center;
+  padding-top: 7%;
+}
+
+.body-first-page-title {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 5%;
+  color: white;
+}
+
+.body-first-page-text {
+  font-size: 65px;
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  color: white;
+}
+
+.body-second-page {
+  background-color: darkgreen;
+  height: 1000px;
+}
+
+.body-second-page-title {
+  font-size: 30px;
+  padding-left: 50px;
+  padding-top: 25px;
+  color: white;
+  height: 50px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.row div {
+  width: 50%;
+  height: 400px;
+}
+
+.noMargin {
+  margin: 0px;
+}
+
+.one {
+  border-radius: 10px;
+  background-color: red;
+  margin-top: 25px;
+  margin-left: 125px;
+  margin-right: 55px;
+  margin-bottom: 25px;
+}
+
+.two {
+  border-radius: 10px;
+  background-color: yellow;
+  margin-top: 25px;
+  margin-right: 125px;
+  margin-left: 55px;
+  margin-bottom: 25px;
+}
+
+.three {
+  border-radius: 10px;
+  background-color: green;
+  margin-bottom: 25px;
+  margin-left: 125px;
+  margin-right: 55px;
+  margin-top: 25px;
+}
+
+.four {
+  border-radius: 10px;
+  background-color: blue;
+  margin-bottom: 25px;
+  margin-right: 125px;
+  margin-left: 55px;
+  margin-top: 25px;
+}
+
+.body-second-page-img {
+  border-radius: 10px;
+  max-height: 100%;
+  max-width: 100%;
+  height: 220px;
+  width: 100%;
+}
+
+.body-third-page {
+  background-color: blueviolet;
+  height: 700px;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.body-third-page-title {
+  font-size: 50px;
+  color: white;
+  padding-left: 300px;
+  padding-bottom: 50px;
+}
+
+.body-third-input-label-button {
+  padding-left: 350px;
+  padding-right: 350px;
+  color: white;
+}
+
+.footer {
+  font-size: 15px;
+  background-color: dimgrey;
+  padding: 10px;
+  text-align: center;
+}
